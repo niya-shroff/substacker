@@ -1,3 +1,5 @@
 fastapi
 feedparser
 beautifulsoup4
+fastmcp
+requests
