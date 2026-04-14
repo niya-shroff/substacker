@@ -13,28 +13,12 @@ A simple API built with **FastAPI** to fetch posts from any public Substack news
 
 ---
 
-## Installation
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/yourusername/substacker-api.git
-cd substacker-api
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
 ## Usage
 
-Start the API server:
 ```bash
-uvicorn main:app --reload
 Fetch Substack posts:
-GET http://127.0.0.1:8000/substack/{username}
+GET substacker-umber.vercel.app/substack/{username}
 ```
-GET http://127.0.0.1:8000/substack/techcrunch
-
 Response:
 ```bash
 {
