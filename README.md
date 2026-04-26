@@ -2,7 +2,7 @@
 
 A simple API built with **FastAPI** to fetch posts from any public Substack newsletter using their RSS feed. This allows you to retrieve Substack posts in JSON format, including titles, links, published dates, and full content.
 
-Example: [newniyas substack posts](substacker-umber.vercel.app/substack/newniyas)
+Example: [newniyas substack posts](https://substacker-umber.vercel.app/substack/newniyas)
 
 <img width="1501" height="428" alt="Screenshot 2026-04-26 at 6 44 03 PM" src="https://github.com/user-attachments/assets/72c8d128-0946-457b-8c89-6665fb9560ee" />
 
