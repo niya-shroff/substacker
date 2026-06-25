@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+
+# Crash logs
+hs_err_pid*
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.metadata/
+.recommenders/
+.factorypath
+
+# OS metadata
+.DS_Store
+Thumbs.db
