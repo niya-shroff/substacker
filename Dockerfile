@@ -1,7 +1,7 @@
 # Build stage
 FROM maven:3.9.8-eclipse-temurin-22 AS build
 WORKDIR /app
-COPY pom.xml .
+COPY substacker_java/pom.xml substacker_java/pom.xml
 # Download dependencies first (cached layer)
 RUN mvn dependency:go-offline -B
 COPY substacker_java/src/main/java ./substaker_java/src/main/java
