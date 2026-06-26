@@ -1,2 +1,0 @@
-[tool.vercel]
-entrypoint = "substacker_python.app:app"
