@@ -4,7 +4,7 @@ WORKDIR /app
 COPY pom.xml .
 # Download dependencies first (cached layer)
 RUN mvn dependency:go-offline -B
-COPY src/main/java ./src/main/java
+COPY substacker_java/src/main/java ./substaker_java/src/main/java
 RUN mvn package -DskipTests -B
 
 # Run stage
